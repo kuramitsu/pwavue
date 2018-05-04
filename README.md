@@ -15,3 +15,6 @@ https://github.com/angular/angular-cli/issues/9783
 
  ts-loader version ...
 
+https://github.com/vuejs/vue/issues/5298
+
+

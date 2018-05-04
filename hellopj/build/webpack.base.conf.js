@@ -39,16 +39,16 @@ module.exports = {
         }
       },
       {
-        test: /\.vue$/,
-        loader: 'vue-loader',
-        options: vueLoaderConfig
-      },
-      {
-        test: /\.ts$/,
-        loader: 'ts-loader',
+        test: /\.tsx?$/,
+        loader: "ts-loader",
         options: {
           appendTsSuffixTo: [/\.vue$/]
         }
+      },
+      {
+        test: /\.vue$/,
+        loader: 'vue-loader',
+        options: vueLoaderConfig
       },
       {
         test: /\.js$/,
